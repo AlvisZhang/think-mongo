@@ -1,21 +1,21 @@
 {
-    "name": "topthink/think-mongo",
-    "description": "mongodb driver for thinkphp5",
+    "name": "fooz/think-mongo",
+    "description": "base on think-mongo v2.0.12, add some feature and fix bug detial pls check on github",
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "liu21st",
+        "email": "liu21st@gmail.com"
+    }, {
+        "name": "Alvis",
+        "email": "alvis@1979s.com"
+    }],
     "require": {
-	"topthink/framework": "~5.1.20"
+        "topthink/framework": "~5.1.20"
     },
     "autoload": {
         "psr-4": {
             "think\\mongo\\": "src"
         },
-        "files": [
-        ]
+        "files": []
     }
 }
